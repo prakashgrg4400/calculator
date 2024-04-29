@@ -34,8 +34,7 @@ function handleEven() {
   if (input.value == "") {
     p.textContent = "Input Field is blank";
     p.style.color = "rgb(218, 55, 55)";
-  }
-  if (+input.value % 2 == 0) {
+  } else if (+input.value % 2 == 0) {
     p.textContent = "Even";
     p.style.color = "dodgerblue";
     input.value = "";
