@@ -25,7 +25,7 @@ function handleOdd() {
   } else {
     p.textContent = "It is not Odd";
     p.style.color = "rgb(218, 55, 55)";
-    input.textContent = "";
+    input.value = "";
   }
 }
 
