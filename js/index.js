@@ -15,7 +15,10 @@ function handleClear() {
 }
 
 function handleOdd() {
-  if (+input.value % 2 != 0) {
+  if (input.value == "") {
+    p.textContent = "Input Field is blank";
+    p.style.color = "rgb(218, 55, 55)";
+  } else if (+input.value % 2 != 0) {
     p.textContent = "Odd";
     p.style.color = "dodgerblue";
     input.value = "";
@@ -28,6 +31,10 @@ function handleOdd() {
 
 function handleEven() {
   // alert(typeof input.value);
+  if (input.value == "") {
+    p.textContent = "Input Field is blank";
+    p.style.color = "rgb(218, 55, 55)";
+  }
   if (+input.value % 2 == 0) {
     p.textContent = "Even";
     p.style.color = "dodgerblue";
