@@ -11,7 +11,8 @@
     <div class="container">
       <div class="box">
         <h1 class="title">Calculator</h1>
-        <input id="result" />
+        <p class="oddOrEven"></p>
+        <input id="result" readonly />
         <div class="calc-parent">
           <button class="calc-btn" onclick="inputData(7)">7</button>
           <button class="calc-btn" onclick="inputData(8)">8</button>
@@ -35,8 +36,8 @@
             =
           </button>
 
-          <button class="calc-btn">EVEN</button>
-          <button class="calc-btn">ODD</button>
+          <button class="calc-btn" onclick="handleEven()">EVEN</button>
+          <button class="calc-btn" onclick="handleOdd()">ODD</button>
         </div>
       </div>
     </div>

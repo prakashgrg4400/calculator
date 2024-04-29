@@ -5,6 +5,7 @@
 }
 body {
   background-color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -60,4 +61,10 @@ body {
   /* border: 5px solid black; */
   justify-content: center;
   padding-top: 1rem;
+}
+
+.oddOrEven {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
 }
